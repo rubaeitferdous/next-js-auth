@@ -1,0 +1,18 @@
+{
+  "React Stateless Component": {
+    "prefix": "rsc",
+    "body": [
+      "import React from 'react';",
+      "",
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>${1}</div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1};"
+    ],
+    "description": "Create a React stateless component",
+    "scope": "javascriptreact,typescriptreact"
+  }
+}
